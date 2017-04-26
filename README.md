@@ -1,6 +1,6 @@
 # npmdoc-woocommerce-api
 
-#### api documentation for  [woocommerce-api (v1.4.2)](https://github.com/woocommerce/wc-api-node#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-woocommerce-api.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-woocommerce-api) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-woocommerce-api.svg)](https://travis-ci.org/npmdoc/node-npmdoc-woocommerce-api)
+#### basic api documentation for  [woocommerce-api (v1.4.2)](https://github.com/woocommerce/wc-api-node#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-woocommerce-api.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-woocommerce-api) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-woocommerce-api.svg)](https://travis-ci.org/npmdoc/node-npmdoc-woocommerce-api)
 
 #### A Node.js wrapper for the WooCommerce REST API
 
@@ -75,7 +75,8 @@
         "pretest": "npm run-script lint && npm run-script checkStyle",
         "test": "istanbul cover ./node_modules/.bin/_mocha test.js"
     },
-    "version": "1.4.2"
+    "version": "1.4.2",
+    "bin": {}
 }
 ```
 
